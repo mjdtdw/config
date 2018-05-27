@@ -2,18 +2,14 @@
 New syntax for Idris
 
 ## Examples
+### Idris
 ```idris
-module Main
-
 main : IO ()
 main = putStrLn "Hello world"
 ```
-equal
-```rust
-module Main
-
-fn main is IO Void {
+### Midris
+```python
+def main is IO Void:
     print "Hello world"
-}
 ```
 
