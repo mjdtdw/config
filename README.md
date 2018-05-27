@@ -9,10 +9,11 @@ main : IO ()
 main = putStrLn "Hello world"
 ```
 equal
-```python
+```rust
 module Main
 
-def main is IO Void:
+fn main is IO Void {
     print "Hello world"
+}
 ```
 
