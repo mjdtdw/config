@@ -23,6 +23,6 @@ add (S l) r = add l (S r)
 def add is Nat:
     param l, r is Nat
     match l:
-        Z then return r
+        0 then return r
         1 + l' then rematch l' (1 + r)
 ```
