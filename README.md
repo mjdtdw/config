@@ -21,7 +21,7 @@ add (S l) r = add l (S r)
 ### Midris
 ```python
 def add is Nat:
-    param l, r is Nat
+    **param** l, r is Nat
     match l:
         Z then return r
         1 + l' then rematch l' (1 + r)
