@@ -26,3 +26,17 @@ def add is Nat:
         0 then return r
         1 + l' then rematch l' (1 + r)
 ```
+### Idris
+```idris
+data Maybe : (a : Type) -> Type where
+    Nothing : Maybe a
+    Just : (x : a) -> Maybe a
+```
+### Midris
+```
+data Maybe is Type:
+    param any is Type
+    atom Nothing is Maybe any
+    atom Just is Maybe any:
+        param x is any
+```
