@@ -4,13 +4,13 @@ New syntax for Idris
 ## Examples
 ### Idris
 ```idris
-main : IO ()
+main : Eff () STDIO
 main = putStrLn "Hello world"
 ```
 ### Midris
 ```
-def main is IO Void:
-    print "Hello world"
+def main is eff none stdio:
+    put "Hello world"
 ```
 ### Idris
 ```idris
